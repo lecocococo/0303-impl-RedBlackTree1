@@ -81,3 +81,33 @@
          - case C가 왼쪽: 부모노드를 기준으로 right rotate
          - case C가 오른쪽: 부모노드를 기준으로 left rotate
 --------
+## Node 클래스 
+```java
+public class Node {
+
+
+    public Node parent;
+    public Node left;
+    public Node right;
+    public boolean isBlack;
+
+    public Node() {
+        
+    }
+
+    public Node(Node parent, Node left, Node right, boolean b) {
+        this.parent = parent;
+        this.left = left;
+        this.right = right;
+        this.isBlack = b;
+    }
+
+}
+
+```
+
+## Red Black Tree 인터페이스
+```java
+
+
+```
