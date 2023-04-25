@@ -108,6 +108,10 @@ public class Node {
 
 ## Red Black Tree 인터페이스
 ```java
-
+// boolean isEmpty()
+// boolean(or void) insert(Node node)
+// boolean(or void) delete(Node node)
+// void leftRoatate()
+// void rightRotate()
 
 ```
