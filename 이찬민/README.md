@@ -21,10 +21,10 @@
 
         삽입하려는 노드 K의 부모노드 P의 색이 검은색인 경우
          => 자신의 위치에 삽입
-    ### restructuring (시간복잡도 O(1))
+    ### restructuring (삽입후에 일어남으로 시간복잡도 O(logN), restructuring 자체는 O(1))
         삽입하려는 노드 K의 부모노드 P의 색이 빨간색
          a. 부모노드 P의 형제노드가 검은색이거나 null인경우 발생
-         => restructurung 발생
+         => restructuring 발생
         
         삽입한 노드 K, 부모 노드 P, 조상노드 G를 가지고 수행
         1. K. P ,G 중 중간값을 부모로 만듬
